@@ -4,6 +4,7 @@ class Rectangle{
 	int length=10;
 	int breadth=5;
 }
+//subclass of rectangle
 class cubiod extends Rectangle{
 	int height=5;
 	int volumeCubiod() {
@@ -11,6 +12,7 @@ class cubiod extends Rectangle{
 	return(area);
 	}
 }
+//subclass of cubiod
 class RectangleParameter extends cubiod{
 	void paraMeter() {
 		System.out.println("parameter="+(2*(length+breadth)));
