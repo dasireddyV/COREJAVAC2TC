@@ -1,6 +1,6 @@
 class studentData{
-	int rollno;
-	String name;
+	 int rollno;
+	 String name;
 	static String college="svkp college";
 	studentData(int r,String n){
 		rollno=r;
@@ -13,7 +13,7 @@ class studentData{
 public class Demostatic {
 
 	public static void main(String[] args) {
-	studentData obj=new studentData(101,"venky");
+	studentData obj=new studentData(102,"venky");
 	obj.dispaly();
 		
 	}
