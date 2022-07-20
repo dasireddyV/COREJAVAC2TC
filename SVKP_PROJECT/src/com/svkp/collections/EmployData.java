@@ -1,6 +1,6 @@
 package com.svkp.collections;
 
-public class EmployData {
+public class EmployData{
 	String ename;
 	int eid;
 	int age;
