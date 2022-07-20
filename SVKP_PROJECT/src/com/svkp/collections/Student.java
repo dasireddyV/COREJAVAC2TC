@@ -4,7 +4,6 @@ public class Student implements Comparable<Student> {
     public int rollno;
     public String name;
     public int age;
-    
 	public Student(int rollno, String name, int age) {
 		super();
 		this.rollno = rollno;
